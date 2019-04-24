@@ -41,7 +41,7 @@ Use the wireframe below as your guide to create an explicit grid with some of th
 
 <img style="width:80%" src="images/explicit-grid-2.png" alt="Wireframe offered as viable design practice for an explicit grid." />
 
-## BONUS Explicit Grid
+## BONUS Explicit Grid (not required)
 
 Use the wireframe below as your guide to create a bonus explicit grid with some of the following general properties. THIS IS NOT REQUIRED WORK, but you can earn 10 bonus points.
 
