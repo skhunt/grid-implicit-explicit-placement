@@ -1,0 +1,29 @@
+.container1_implicit {
+       display: grid;
+	   grid-template-columns: repeat(2, 1fr);
+     grid-auto-rows: 3fr;
+	   width: 100vw;
+	   height: 80vh;
+}
+
+.container2_implicit {
+       display: grid;
+	   grid-template-columns: repeat(4, 1fr);
+	   width: 100vw;
+	   height: 20vh;
+}
+
+.image {
+	overflow: auto;
+}
+.text {
+	overflow: auto;
+}
+
+.container1_explicit {
+       display: grid;
+	   grid-template-columns: repeat(8, 1fr);
+	   grid-template-areas: "x x x x . . . ." ". . y y y y . ." ". . . . z z z z";
+	   width: 100vw;
+	   height: 100vh;
+}
