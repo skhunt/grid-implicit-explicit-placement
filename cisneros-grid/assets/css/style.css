@@ -1,0 +1,62 @@
+/*------------------------------
+    Ipmlicit Grid CSS
+  ------------------------------  */
+main#main1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+ul{
+  display: grid;
+  list-style-type: none;
+  grid-auto-flow: column;
+  grid-template-rows: 100px;
+  padding-left: 80px;
+}
+li{
+  padding-top: 50px;
+  font-size: 30px;
+}
+div.text{
+  line-height: 40px;
+  background-color: lightgrey
+}
+h2{
+  font-size: 30px;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+p{
+  font-size: 17px;
+  padding-left: 30px;
+  padding-right: 25px;
+}
+/* -----------------------
+      Explicit Grid CSS
+   -----------------------*/
+h1{
+  padding-top: 30px;
+  padding-left: 30px;
+}
+main#main2{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 300px;
+}
+div#row1{
+  display: grid;
+  margin-left: 30px;
+}
+div#row2 {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: auto 400px auto;
+
+}
+div#row2 > p{
+  font-size: 25px;
+}
+div#row3{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
